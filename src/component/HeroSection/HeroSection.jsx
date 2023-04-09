@@ -1,5 +1,6 @@
 import React from "react";
 import "./HeroSection.css"
+import JobCategoryList from "../JobCategoryList/JobCategoryList";
 
 const HeroSection = () => {
   return (
