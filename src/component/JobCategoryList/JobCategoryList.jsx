@@ -1,5 +1,5 @@
 import React from "react";
-import JobCategoryData from "../../../public/JobCategoryData.json"
+import jobCategoryData from "../../../public/JobCategoryData.json"
 
 const JobCategoryList = () => {
   return (
@@ -12,7 +12,7 @@ const JobCategoryList = () => {
         </p>
       </div>
       <div className="hero-content grid lg:grid-cols-4 gap-10 mx-auto">
-        {JobCategoryData.map((category) => (
+        {jobCategoryData.map((category) => (
           <div key={category.id} className="p-10 bg-indigo-50 rounded-lg shadow-md">
             <img className="border rounded-lg p-5 bg-indigo-100 mb-5" src={category.image} alt="" />
             <h3 className="text-xl font-semibold">{category.jobType}</h3>
