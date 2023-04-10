@@ -1,36 +1,27 @@
-import React from 'react';
+import React from "react";
+import JobCategoryData from "../../../public/JobCategoryData.json"
 
 const JobCategoryList = () => {
-    return (
-        <div>
-            <div className='grid justify-items-center mt-32'>
-                <h2 className='text-4xl font-bold'>Job Category List</h2>
-                <p className='font-thin text-slate-400 my-6'>Explore thousands of job opportunities with all the information you need. Its your future</p>
-            </div>
-            <div className='grid grid-cols-1 md:grid-cols-4 gap-40 mx-5 lg:mx-40'>
-                <div className='border rounded-lg bg-indigo-50 p-5'>
-                    <img className='p-2 border rounded-lg bg-indigo-100' src="../../../Images/Icons/accounts 1.png" alt="" />
-                    <h4 className='font-bold mt-5'>Account & Finance</h4>
-                    <p className='text-slate-400'>300 Jobs Available</p>
-                </div>
-                <div className='border rounded-lg bg-indigo-50 p-5'>
-                <img className='p-2 border rounded-lg bg-indigo-100' src="../../../Images/Icons/business 1.png" alt="" />
-                    <h4 className='font-bold mt-5'>Creative Design</h4>
-                    <p className='text-slate-400'>100+ Jobs Available</p>
-                </div>
-                <div className='border rounded-lg bg-indigo-50 p-5'>
-                    <img className='p-2 border rounded-lg bg-indigo-100' src="../../../Images/Icons/social-media 1.png" alt="" />
-                    <h4 className='font-bold mt-5'>Marketing & Sales</h4>
-                    <p className='text-slate-400'>150 Jobs Available</p>
-                </div>
-                <div className='border rounded-lg bg-indigo-50 p-5'>
-                    <img className='p-2 border rounded-lg bg-indigo-100' src="../../../Images/Icons/chip 1.png" alt="" />
-                    <h4 className='font-bold mt-5'>Engineering Job</h4>
-                    <p className='text-slate-400'>224 Jobs Available</p>
-                </div>
-            </div>
-        </div>
-    );
+  return (
+    <div>
+      <div className="grid justify-items-center mt-32">
+        <h2 className="text-4xl font-bold">Job Category List</h2>
+        <p className="font-thin text-slate-400 my-6">
+          Explore thousands of job opportunities with all the information you
+          need. Its your future
+        </p>
+      </div>
+      <div className="hero-content grid lg:grid-cols-4 gap-10 mx-auto">
+        {JobCategoryData.map((category) => (
+          <div key={category.id} className="p-10 bg-indigo-50 rounded-lg shadow-md">
+            <img className="border rounded-lg p-5 bg-indigo-100 mb-5" src={category.image} alt="" />
+            <h3 className="text-xl font-semibold">{category.jobType}</h3>
+            <p className="text-gray-600 mt-2">{category.jobAvailable}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
 };
 
 export default JobCategoryList;
