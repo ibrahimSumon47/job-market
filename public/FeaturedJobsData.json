@@ -76,7 +76,7 @@
   },
   {
     "id": 6,
-    "companyLogo": "../Images/Logo/acmecorporation.png",
+    "companyLogo": "../Images/Logo/cocacola.png",
     "jobTitle": "Marketing Manager",
     "companyName": "Acme Corporation",
     "remoteOrOnsite": "Remote",
@@ -106,7 +106,7 @@
   },
   {
     "id": 8,
-    "companyLogo": "../Images/Logo/bethesda.png",
+    "companyLogo": "../Images/Logo/samsung.png",
     "jobTitle": "Software Engineer",
     "companyName": "Bethesda Game Stdio",
     "remoteOrOnsite": "Remote",
