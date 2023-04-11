@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import featuredJobsData from "../../../public/featuredJobsData.json";
+import { Link } from "react-router-dom";
 const Job = ({ job }) => {
   const {
     id,
@@ -39,9 +40,11 @@ const Job = ({ job }) => {
             <p>Salary:{salary}</p>
           </div>
         </div>
+        <Link to = {`details/${id}`}>
         <button className="btn bg-indigo-400 text-slate-50 font-bold">
           View Details
         </button>
+        </Link>
       </div>
     </div>
   );
