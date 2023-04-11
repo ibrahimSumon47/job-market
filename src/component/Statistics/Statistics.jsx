@@ -1,9 +1,10 @@
 import React from 'react';
+import Deshboard from '../Deshboard/Deshboard';
 
 const Statistics = () => {
     return (
-        <div>
-            <h2>This is statistics page</h2>
+        <div className='flex justify-center mt-52'>
+            <Deshboard></Deshboard>
         </div>
     );
 };
