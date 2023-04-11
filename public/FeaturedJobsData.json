@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "companyLogo": "../Images/Logo/google.png",
+    "companyLogo": "https://i.ibb.co/CbT3Bg2/google.png",
     "jobTitle": "Software Engineer",
     "companyName": "Google",
     "remoteOrOnsite": "Onsite",
@@ -16,7 +16,7 @@
   },
   {
     "id": "2",
-    "companyLogo": "../Images/Logo/amazon.png",
+    "companyLogo": "https://i.ibb.co/cQysg6v/amazon.png",
     "jobTitle": "Product Manager",
     "companyName": "Amazon",
     "remoteOrOnsite": "Onsite",
@@ -31,7 +31,7 @@
   },
   {
     "id": "3",
-    "companyLogo": "../Images/Logo/facebook.png",
+    "companyLogo": "https://i.ibb.co/xGnH18x/facebook.png",
     "jobTitle": "Data Analyst",
     "companyName": "Facebook",
     "remoteOrOnsite": "Remote",
@@ -46,7 +46,7 @@
   },
   {
     "id": "4",
-    "companyLogo": "../Images/Logo/apple.png",
+    "companyLogo": "https://i.ibb.co/FXjythH/apple.png",
     "jobTitle": "UX Designer",
     "companyName": "Apple",
     "remoteOrOnsite": "Onsite",
@@ -61,7 +61,7 @@
   },
   {
     "id": 5,
-    "companyLogo": "../Images/Logo/netflix.png",
+    "companyLogo": "https://i.ibb.co/6ByMxwc/netflix.png",
     "jobTitle": "Senior Product Designer",
     "companyName": "Netflix",
     "remoteOrOnsite": "Onsite",
@@ -76,9 +76,9 @@
   },
   {
     "id": 6,
-    "companyLogo": "../Images/Logo/cocacola.png",
+    "companyLogo": "https://i.ibb.co/jW3yyM5/samsung.png",
     "jobTitle": "Marketing Manager",
-    "companyName": "Acme Corporation",
+    "companyName": "Samsung",
     "remoteOrOnsite": "Remote",
     "location": "Dhaka, Bangladesh",
     "fulltimeOrParttime": "Part-time",
@@ -91,7 +91,7 @@
   },
   {
     "id": 7,
-    "companyLogo": "../Images/Logo/tesla.png",
+    "companyLogo": "https://i.ibb.co/kBngBzX/tesla.png",
     "jobTitle": "Software Engineer",
     "companyName": "Tesla",
     "remoteOrOnsite": "Onsite",
@@ -106,9 +106,9 @@
   },
   {
     "id": 8,
-    "companyLogo": "../Images/Logo/samsung.png",
+    "companyLogo": "https://i.ibb.co/rxnw1Vw/cocacola.png",
     "jobTitle": "Software Engineer",
-    "companyName": "Bethesda Game Stdio",
+    "companyName": "Cocacola",
     "remoteOrOnsite": "Remote",
     "location": "Dhaka, Bangladesh",
     "fulltimeOrParttime": "Part-time",

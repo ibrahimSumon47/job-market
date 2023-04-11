@@ -7,7 +7,7 @@ const HeroSection = () => {
     <div className="flex justify-around  bg-indigo-50">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img
-          src="../../../Images/All Images/Professional.png"
+          src="https://i.ibb.co/7zRGVR5/Professional.png"
           className="mb-4 lg:mb-0 lg:max-w-screen-lg lg:self-start"
         />
         <div>

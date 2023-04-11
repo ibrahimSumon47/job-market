@@ -9,7 +9,7 @@ const FeaturedJobs = () => {
     setSeeAll(true);
   };
   useEffect(() => {
-    fetch("featuredJobsData.json")
+    fetch("/featuredJobsData.json")
       .then((res) => res.json())
       .then((data) => setJobs(data));
   }, []);

@@ -27,13 +27,13 @@ const Job = ({ job }) => {
         </div>
         <div className="py-5 md:flex md:flex-row md:gap-10">
           <div className="flex pb-5">
-            <img src="../../../Images/Icons/location.png" alt="" />
+            <img src="https://i.ibb.co/3pmPjfX/Frame.png" alt="" />
             <p>{location}</p>
           </div>
           <div className="flex">
             <img
               className="h-6 w-6"
-              src="../../../Images/Icons/Frame.png"
+              src="../../../public/Icons/Frame.png"
               alt=""
             />
             <p>Salary:{salary}</p>
