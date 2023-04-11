@@ -1,7 +1,7 @@
 import React from "react";
 import {
-  LineChart,
-  Line,
+  AreaChart,
+  Area,
   XAxis,
   YAxis,
   CartesianGrid,
@@ -54,12 +54,22 @@ const Deshboard = () => {
     },
   ];
   return (
-    <div>
-      <LineChart width={1000} height={300} data={assigementChart}>
-        <Line stroke="#8884d8" dataKey="mark"></Line>
-        <XAxis stroke="#8884d8" dataKey="assigementNo" />
-        <YAxis stroke="#8884d8" />
-      </LineChart>
+    <div style={{width: "100%"}}>
+      <ResponsiveContainer width="100%" aspect={4 / 1}>
+        <AreaChart data={assigementChart}>
+          <CartesianGrid strokeDasharray="3 3"></CartesianGrid>
+          <XAxis dataKey="assigementNo" />
+          <YAxis />
+          <Tooltip />
+          <Legend />
+          <Area
+            type="monotone"
+            dataKey="mark"
+            fill="#8884d8"
+            stroke="#8884d8"
+          />
+        </AreaChart>
+      </ResponsiveContainer>
     </div>
   );
 };
