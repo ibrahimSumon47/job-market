@@ -34,7 +34,7 @@ const Job = ({ job }) => {
           <div className="flex">
             <img
               className="h-6 w-6"
-              src="../../../public/Icons/Frame.png"
+              src="https://i.ibb.co/3pmPjfX/Frame.png"
               alt=""
             />
             <p>Salary:{salary}</p>

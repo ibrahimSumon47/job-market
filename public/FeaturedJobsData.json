@@ -12,7 +12,8 @@
     "jobResponsibility": "You'll be responsible for designing and implementing new features in our flagship product.",
     "educationalRequirements": "Bachelor's degree in Computer Science or related field",
     "experiences": "5+ years of experience in software engineering",
-    "contactInformation": "Please send your resume to jobs@google.com"
+    "mail": "jobs@google.com",
+    "phone": "01750-00 00 00"
   },
   {
     "id": "2",
@@ -27,7 +28,8 @@
     "jobResponsibility": "You'll be responsible for defining and driving the product roadmap for our e-commerce platform.",
     "educationalRequirements": "Bachelor's degree in business, marketing, or related field",
     "experiences": "7+ years of experience in product management",
-    "contactInformation": "Please send your resume to jobs@amazon.com"
+    "mail": "jobs@amazon.com",
+    "phone": "01750-00 00 00"
   },
   {
     "id": "3",
@@ -42,7 +44,8 @@
     "jobResponsibility": "You'll be responsible for analyzing large data sets to identify trends and insights to drive business decisions.",
     "educationalRequirements": "Bachelor's degree in statistics, mathematics, computer science, or related field",
     "experiences": "3+ years of experience in data analysis",
-    "contactInformation": "Please send your resume to jobs@facebook.com"
+    "mail": "jobs@facebook.com",
+    "phone": "01750-00 00 00"
   },
   {
     "id": "4",
@@ -57,10 +60,11 @@
     "jobResponsibility": "You'll be responsible for designing and iterating on user interfaces for our products.",
     "educationalRequirements": "Bachelor's degree in design or related field",
     "experiences": "5+ years of experience in UX design",
-    "contactInformation": "Please send your resume to jobs@apple.com"
+    "mail": "jobs@apple.com",
+    "phone": "01750-00 00 00"
   },
   {
-    "id": 5,
+    "id": "5",
     "companyLogo": "https://i.ibb.co/6ByMxwc/netflix.png",
     "jobTitle": "Senior Product Designer",
     "companyName": "Netflix",
@@ -69,13 +73,14 @@
     "fulltimeOrParttime": "Full-time",
     "salary": "$100K - $150K",
     "jobDescription": "We are looking for a talented Senior Product Designer to join our team in Dhaka, Bangladesh. In this role, you will be responsible for designing and improving the user experience of our streaming platform across multiple devices. You will collaborate with cross-functional teams to develop and execute design strategies that align with our brand and business objectives.",
-    "jobResponsibility": "-Design and improve the user experience of our streaming platform across multiple devices.\n-Collaborate with cross-functional teams to develop and execute design strategies.\n-Create wireframes, prototypes, and high-fidelity mockups.\n-Perform user research and usability testing.\n-Stay up-to-date with industry trends and best practices.",
-    "educationalRequirements": "Bachelor's or Master's degree in design-related field.\n-Strong portfolio demonstrating experience designing complex systems across multiple devices.\n-Excellent communication and collaboration skills.\n-Proficiency in design tools such as Sketch, Figma, or Adobe Creative Suite.",
-    "experiences": "Minimum 5 years of experience in product design or UX/UI design.\n-Experience working on streaming platforms or other digital media products is a plus.",
-    "contactInformation": "To apply for this position, please send your resume and portfolio to careers@netflix.com."
+    "jobResponsibility": "-Design and improve the user experience of our streaming platform across multiple devices. Collaborate with cross-functional teams to develop and execute design strategies. Create wireframes, prototypes, and high-fidelity mockups. Perform user research and usability testing. Stay up-to-date with industry trends and best practices.",
+    "educationalRequirements": "Bachelor's or Master's degree in design-related field.",
+    "experiences": "Minimum 5 years of experience in product design or UX/UI design",
+    "mail": "careers@netflix.com.",
+    "phone": "01750-00 00 00"
   },
   {
-    "id": 6,
+    "id": "6",
     "companyLogo": "https://i.ibb.co/jW3yyM5/samsung.png",
     "jobTitle": "Marketing Manager",
     "companyName": "Samsung",
@@ -84,13 +89,14 @@
     "fulltimeOrParttime": "Part-time",
     "salary": "$80K - $100K",
     "jobDescription": "Acme Corporation is seeking a talented and experienced Marketing Manager to join our team. The ideal candidate will have a proven track record of developing and executing successful marketing campaigns, as well as strong leadership skills and the ability to work effectively in a fast-paced environment.",
-    "jobResponsibility": "- Develop and implement marketing strategies to promote Acme Corporation's products and services\n- Collaborate with cross-functional teams to ensure alignment of marketing efforts\n- Analyze and report on the performance of marketing campaigns\n- Manage a team of marketing professionals\n- Stay up-to-date with industry trends and best practices",
+    "jobResponsibility": "- Develop and implement marketing strategies to promote Acme Corporation's products and services. Collaborate with cross-functional teams to ensure alignment of marketing efforts. Analyze and report on the performance of marketing campaigns. Manage a team of marketing professionals. Stay up-to-date with industry trends and best practices",
     "educationalRequirements": "Bachelor's degree in marketing or a related field",
     "experiences": "5+ years of experience in marketing, with at least 2 years in a management role",
-    "contactInformation": "To apply, please send your resume and cover letter to careers@acme.com"
+    "mail": "careers@samsung.com",
+    "phone": "01750-00 00 00"
   },
   {
-    "id": 7,
+    "id": "7",
     "companyLogo": "https://i.ibb.co/kBngBzX/tesla.png",
     "jobTitle": "Software Engineer",
     "companyName": "Tesla",
@@ -102,10 +108,11 @@
     "jobResponsibility": "Responsibilities include designing and implementing software solutions, writing and maintaining code, collaborating with cross-functional teams, and ensuring high-quality software products.",
     "educationalRequirements": "Bachelor's or Master's degree in Computer Science or related field.",
     "experiences": "5+ years of experience in software engineering.",
-    "contactInformation": "To apply, please send your resume and cover letter to careers@example.com."
+    "mail": "careers@tesla.com.",
+    "phone": "01750-00 00 00"
   },
   {
-    "id": 8,
+    "id": "8",
     "companyLogo": "https://i.ibb.co/rxnw1Vw/cocacola.png",
     "jobTitle": "Software Engineer",
     "companyName": "Cocacola",
@@ -117,6 +124,7 @@
     "jobResponsibility": "Responsibilities include designing and implementing software solutions, testing and debugging code, and collaborating with team members.",
     "educationalRequirements": "Bachelor's degree in Computer Science or related field.",
     "experiences": "3+ years of experience in software engineering.",
-    "contactInformation": "Please send your resume to jobs@example.com"
+    "mail": "jobs@cocacola.com",
+    "phone": "01750-00 00 00"
   }
 ]
