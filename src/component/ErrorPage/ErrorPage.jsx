@@ -1,13 +1,26 @@
-import { useRouteError } from "react-router-dom";
+import React from "react";
+import { Link } from "react-router-dom";
 
-export default function ErrorPage() {
-  
-
+const ErrorPage = () => {
   return (
-    <div className="flex justify-center">
-      <div id="error-page">
-        <img className="h-screen w-screen" src="https://img.freepik.com/free-vector/hand-drawn-404-error_23-2147746234.jpg?w=826&t=st=1681248179~exp=1681248779~hmac=d788675257d36cc827403d22c05678ff893c043bc4e678a535006de14437e15e" alt="" />
+    <div className="mx-4 md-40 text-center mt-10 md:mt-40">
+      <div>
+        <div>
+          <label className="swap swap-flip text-9xl">
+            <input type="checkbox" />
+            <div className="swap-on">😈</div>
+            <div className="swap-off">😇</div>
+          </label>
+        </div>
+        <h1 className="text-5xl mt-10">
+          404 - Page not found
+        </h1>
+        <Link to = {"/"}>
+          <button className="btn bg-indigo-400 text-slate-50 font-bold w-32 rounded-lg mt-10">Go home</button>
+        </Link>
       </div>
     </div>
   );
-}
+};
+
+export default ErrorPage;

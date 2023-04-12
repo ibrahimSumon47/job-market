@@ -10,7 +10,7 @@ const Header = () => {
   };
   return (
     <div>
-      <nav className="flex justify-around font-mono font-semibold pt-5 bg-indigo-50 p-0 lg:px-48">
+      <nav className="flex md:justify-around font-mono font-semibold pt-5 bg-indigo-50 p-5 md:px-48 align-middle">
         <h2 className="text-4xl">JobMarket</h2>
         <div className="header-nav-link flex mt-3 space-x-10">
           <Link to="/">Home</Link>
