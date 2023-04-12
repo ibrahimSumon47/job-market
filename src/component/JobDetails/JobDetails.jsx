@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
+import { addToDb } from "../../../utilities/fakeDB";
 
-const JobDetails = ({}) => {
+const JobDetails = () => {
   const { id } = useParams();
   const [data, setData] = useState({});
+  const [cart, setCart] = useState([]);
   const {
     jobDescription,
     jobResponsibility,
@@ -15,6 +17,21 @@ const JobDetails = ({}) => {
     mail,
     location,
   } = data;
+
+  const handleAddToCart = (product) => {
+    let newCart = [];
+    const exists = cart.find((pd) => pd.id === product.id);
+    if (!exists) {
+      product.quantity = 1;
+      newCart = [...cart, product];
+    } else {
+      exists.quantity = exists.quantity + 1;
+      const remaining = cart.filter((pd) => pd.id !== product.id);
+      newCart = [...remaining, exists];
+    }
+    setCart(newCart);
+    addToDb(product.id);
+  };
 
   const details = useLoaderData();
   useEffect(() => {
@@ -107,7 +124,9 @@ const JobDetails = ({}) => {
             </div>
           </div>
           <div>
-          <button className="btn bg-indigo-400 text-slate-50 font-bold w-full rounded-lg mt-5">Apply Now</button>
+            <button onClick={() => handleAddToCart(data)} className="btn bg-indigo-400 text-slate-50 font-bold w-full rounded-lg mt-5">
+              Apply Now
+            </button>
           </div>
         </div>
       </div>

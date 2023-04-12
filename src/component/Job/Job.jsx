@@ -28,7 +28,7 @@ const Job = ({ job }) => {
         </div>
         <div className="py-5 md:flex md:flex-row md:gap-10">
           <div className="flex pb-5">
-            <img src="https://i.ibb.co/3pmPjfX/Frame.png" alt="" />
+            <img src="https://i.ibb.co/TWszmLJ/location.png" alt="" />
             <p>{location}</p>
           </div>
           <div className="flex">
