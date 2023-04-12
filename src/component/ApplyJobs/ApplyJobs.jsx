@@ -5,6 +5,23 @@ import JobCart from "../JobCart/JobCart";
 const ApplyJobs = () => {
   const applyJobs = useLoaderData();
   const [jobs, setJobs] = useState(applyJobs);
+  const [filter, setFilter] = useState("");
+
+  const handleFilerChange = (e) => {
+    setFilter(e.target.value);
+  };
+
+  const filteredJobs = jobs.filter((job) => {
+    if (filter === "") {
+      return true;
+    } else if (filter === "Onsite") {
+      return job.remoteOrOnsite === "Onsite";
+    } else if (filter === "Remote") {
+      return job.remoteOrOnsite === "Remote";
+    } else {
+      return true;
+    }
+  });
 
   return (
     <div>
@@ -13,16 +30,17 @@ const ApplyJobs = () => {
       </div>
       <div>
         <div className="flex justify-end mr-10 md:mr-64">
-          <select className="select select-bordered max-w-2xl mt-32">
-            <option disabled selected>
+          <select className="select select-bordered max-w-2xl mt-32" value={filter}
+          onChange={handleFilerChange}>
+            <option value="">
               Filter By
             </option>
-            <option>Onsite</option>
-            <option>Remote</option>
+            <option value="Onsite">Onsite</option>
+            <option value="Remote">Remote</option>
           </select>
         </div>
 
-        {jobs.map((job) => (
+        {filteredJobs.map((job) => (
           <JobCart key={job.id} job={job}></JobCart>
         ))}
       </div>

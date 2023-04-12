@@ -15,7 +15,7 @@ const Job = ({ job }) => {
   return (
     <div>
       <div key={id} className="border rounded-lg p-10">
-        <img className="w-28" src={companyLogo} alt="" />
+        <img className="md:w-28" src={companyLogo} alt="" />
         <h4 className="font-bold py-1">{jobTitle}</h4>
         <p className="text-slate-400 pb-1">{companyName}</p>
         <div className="flex flex-row gap-10 mt-2">
